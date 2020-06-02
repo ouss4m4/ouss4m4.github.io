@@ -1,0 +1,17 @@
+.topwrap {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ext-images {
+  display: flex;
+}
