@@ -1,8 +1,7 @@
 .topwrap {
-  border: 1px solid black;
-  border-radius: 5px;
-  background: white;
   margin: 0 auto;
+  background: white;
+  max-width: 960px;
 }
 .header {
   display: flex;
@@ -14,4 +13,15 @@
 
 .ext-images {
   display: flex;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.last-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
