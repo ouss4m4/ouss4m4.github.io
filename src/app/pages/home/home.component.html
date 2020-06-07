@@ -1,8 +1,22 @@
+<div class="banner">
+  <img
+    src="assets\img\logo-white.png"
+    class="banner-logo"
+    alt="EZ Battery Reconditioning"
+  />
+</div>
 <div class="container">
-  <a routerLink="/tattoo-removal">
-    <img src="assets/img/tattoo-removal/1.jpg" alt="image"
-  /></a>
-  <a routerLink="/ezbattery">
-    <img src="assets/img/tattoo-removal/1.jpg" alt="image"
-  /></a>
+  <div class="pages">
+    <div class="single" *ngFor="let page of pages">
+      <div class="imgwrap">
+        <img class="image" [src]="page.imageUrl" />
+      </div>
+      <p>
+        {{ page.summary }}
+      </p>
+      <a [href]="page.path" class="btn btn-success" style="color: white;"
+        >Snipe this deal</a
+      >
+    </div>
+  </div>
 </div>
