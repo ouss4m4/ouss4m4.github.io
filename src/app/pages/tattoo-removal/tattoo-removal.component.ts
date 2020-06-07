@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { links } from '../links';
+import { refLinks } from '../links';
 
 @Component({
   selector: 'app-tattoo-removal',
@@ -8,5 +8,5 @@ import { links } from '../links';
 })
 export class TattooRemovalComponent {
   constructor() {}
-  public referUrl = links.tatoo;
+  public referUrl = refLinks.tatoo;
 }

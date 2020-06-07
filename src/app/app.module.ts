@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.component';
 import { CommonModule } from '@angular/common';
+import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, TattooRemovalComponent],
+  declarations: [AppComponent, HomeComponent, TattooRemovalComponent, EzbatteryComponent],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

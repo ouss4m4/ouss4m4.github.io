@@ -1,0 +1,26 @@
+.banner {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.title {
+  font-size: 34px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #242424;
+  text-align: center;
+}
+
+.card-body a {
+  text-align: center;
+  display: block;
+  width: 125px;
+  margin: 10px auto;
+}
+
+.container {
+  max-width: 720px;
+}
