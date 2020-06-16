@@ -1,4 +1,5 @@
 export const refLinks = {
-  tatoo: 'https://f08bb19a9j-o8y9it6z82jtieq.hop.clickbank.net/',
-  battery: 'https://2cf106al9l2nbt9bc9cpu5yq8x.hop.clickbank.net/',
+  tatoo: 'https://8cc9cjw7v1nf0xafs-y05mvdbh.hop.clickbank.net/',
+  battery: 'https://a957chx5uavn0x4373mjy6zw0g.hop.clickbank.net/',
+  proven: 'https://672a8aen3c-u8la7lgxg0qom5s.hop.clickbank.net/?tid=1236',
 };
