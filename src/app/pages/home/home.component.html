@@ -1,22 +1,39 @@
-<div class="banner">
-  <img
-    src="assets\img\logo-white.png"
-    class="banner-logo"
-    alt="EZ Battery Reconditioning"
-  />
-</div>
-<div class="container">
-  <div class="pages">
-    <div class="single" *ngFor="let page of pages">
-      <div class="imgwrap">
-        <img class="image" [src]="page.imageUrl" />
-      </div>
-      <p>
-        {{ page.summary }}
-      </p>
-      <a [href]="page.path" class="btn btn-success" style="color: white;"
-        >Snipe this deal</a
-      >
-    </div>
+<div class="topwrap">
+  <div class="banner">
+    <img
+      src="assets\img\logo-white.png"
+      class="banner-logo"
+      alt="EZ Battery Reconditioning"
+    />
   </div>
+
+  <div class="hero">
+    <div class="second">
+      <h1 class="title-a">Best deals around the internet</h1>
+      <p class="catchline">
+        we promote through emails, subscribe to our mailing list
+      </p>
+      <form class="form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email </label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <small
+            id="emailHelp"
+            class="form-text text-muted"
+            style="font-size: 14px;"
+            >We do not spam. and you can unsubscribe anytime</small
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="overlay"></div>
+  </div>
+  <div class="footer">© Sales Sniper</div>
 </div>
