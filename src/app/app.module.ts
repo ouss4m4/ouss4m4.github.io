@@ -8,9 +8,17 @@ import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.co
 import { CommonModule } from '@angular/common';
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { ProvenComponent } from './pages/proven/proven.component';
+import { OkowatComponent } from './pages/okowat/okowat.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, TattooRemovalComponent, EzbatteryComponent, ProvenComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    TattooRemovalComponent,
+    EzbatteryComponent,
+    ProvenComponent,
+    OkowatComponent,
+  ],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
