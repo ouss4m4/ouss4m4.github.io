@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { ProvenComponent } from './pages/proven/proven.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
+import { DofastComponent } from './pages/dofast/dofast.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { OkowatComponent } from './pages/okowat/okowat.component';
     EzbatteryComponent,
     ProvenComponent,
     OkowatComponent,
+    DofastComponent,
   ],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
   providers: [],

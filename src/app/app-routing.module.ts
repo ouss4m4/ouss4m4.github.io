@@ -4,11 +4,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.component';
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
+import { DofastComponent } from './pages/dofast/dofast.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/dofast',
     pathMatch: 'full',
   },
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'energy-saving',
     component: OkowatComponent,
+  },
+  {
+    path: 'dofast',
+    component: DofastComponent,
   },
 ];
 
