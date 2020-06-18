@@ -23,14 +23,3 @@ body {
   color: #333;
   font-size: 23px;
 }
-
-@media only screen and (max-width: 600px) {
-  .hero {
-    padding: 20px;
-  }
-  .catchline {
-  }
-  .form label {
-    display: none;
-  }
-}
