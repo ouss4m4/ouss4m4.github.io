@@ -8,7 +8,7 @@ import { OkowatComponent } from './pages/okowat/okowat.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/energy-saving',
+    redirectTo: '/home',
     pathMatch: 'full',
   },
   {
