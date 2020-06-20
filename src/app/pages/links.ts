@@ -6,4 +6,6 @@ export const refLinks = {
     'https://afflat3c1.com/lnk.asp?o=17928&c=918277&a=507570&k=81130284FB5211A7A769DA5EEDEFA621&l=20096',
   ps5:
     'https://afflat3c1.com/lnk.asp?o=19692&c=918271&a=507570&k=4F222B7610B9E54744C71EA82A2BCD53&l=20643',
+  dofasting:
+    'https://afflat3c1.com/lnk.asp?o=18448&c=918277&a=507570&k=1D6456CEEDAFE37B016DCABE90392DD2&l=19665',
 };

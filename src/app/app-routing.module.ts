@@ -9,7 +9,7 @@ import { DofastComponent } from './pages/dofast/dofast.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/dofast',
+    redirectTo: '/dofasting',
     pathMatch: 'full',
   },
   {
@@ -29,7 +29,7 @@ const routes: Routes = [
     component: OkowatComponent,
   },
   {
-    path: 'dofast',
+    path: 'dofasting',
     component: DofastComponent,
   },
 ];
