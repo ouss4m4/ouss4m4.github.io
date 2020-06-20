@@ -3,14 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-dofast',
   templateUrl: './dofast.component.html',
-  styles: [
-  ]
+  styleUrls: ['./dofast.component.scss'],
 })
 export class DofastComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
