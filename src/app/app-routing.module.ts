@@ -9,7 +9,7 @@ import { DofastComponent } from './pages/dofast/dofast.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/dofasting',
+    redirectTo: '/home',
     pathMatch: 'full',
   },
   {
