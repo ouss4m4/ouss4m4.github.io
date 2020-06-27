@@ -10,6 +10,7 @@ import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { ProvenComponent } from './pages/proven/proven.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
+import { BrainDogComponent } from './pages/braindog/braindog.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DofastComponent } from './pages/dofast/dofast.component';
     ProvenComponent,
     OkowatComponent,
     DofastComponent,
+    BrainDogComponent,
   ],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
   providers: [],

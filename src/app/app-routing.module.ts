@@ -5,6 +5,7 @@ import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.co
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
+import { BrainDogComponent } from './pages/braindog/braindog.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,11 @@ const routes: Routes = [
     path: 'energy-saving',
     component: OkowatComponent,
   },
+  {
+    path: 'brainy-dogs',
+    component: BrainDogComponent,
+  },
+
   {
     path: '**',
     redirectTo: '/home',
