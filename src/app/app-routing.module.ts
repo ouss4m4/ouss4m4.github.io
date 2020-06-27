@@ -28,10 +28,6 @@ const routes: Routes = [
     path: 'energy-saving',
     component: OkowatComponent,
   },
-  {
-    path: 'dofasting',
-    component: DofastComponent,
-  },
 ];
 
 @NgModule({
