@@ -28,6 +28,10 @@ const routes: Routes = [
     path: 'energy-saving',
     component: OkowatComponent,
   },
+  {
+    path: '**',
+    redirectTo: '/home',
+  },
 ];
 
 @NgModule({
