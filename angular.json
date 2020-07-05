@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "sales-sniper"
+  "defaultProject": "sales-sniper",
+  "cli": {
+    "analytics": "c65852b5-8cb0-4f6f-a9c5-18c6e6fcc4dc"
+  }
 }

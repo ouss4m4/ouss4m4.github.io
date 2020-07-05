@@ -11,7 +11,7 @@ declare let fbq: Function;
   styleUrls: ['./braindog.component.scss'],
 })
 export class BrainDogComponent implements OnInit {
-  title: 'Train your dog like a champ';
+  title = 'Train your dog like a champ';
   public refLink = refLinks.braindog;
   constructor(
     private titleService: Title,
