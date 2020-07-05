@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { Meta } from '@angular/platform-browser';
+
 declare let gtag: Function;
 declare let fbq: Function;
 @Component({
@@ -7,8 +9,8 @@ declare let fbq: Function;
   templateUrl: './app.component.html',
   styles: [],
 })
-export class AppComponent {
-  constructor(private router: Router) {
+export class AppComponent implements OnInit {
+  constructor(private router: Router, private metaTagService: Meta) {
     router.events.subscribe((y: NavigationEnd) => {
       if (y instanceof NavigationEnd) {
         gtag('config', 'UA-168145101-1', { page_path: y.url });
@@ -16,5 +18,19 @@ export class AppComponent {
         console.log('sending analytic');
       }
     });
+  }
+  ngOnInit() {
+    this.metaTagService.addTags([
+      {
+        name: 'description',
+        content: `Best deals around the internet ! our AI boosted bots scraps the four corners of  the internet to find the best sales for you, never miss a great sale again`,
+      },
+      {
+        name: 'keywords',
+        content:
+          'sales sniper,sales-sniper,salesniper,salessniper,best deals,sale,sales',
+      },
+      { name: 'robots', content: 'index, follow' },
+    ]);
   }
 }
