@@ -13,12 +13,16 @@ declare let fbq: Function;
 export class BrainDogComponent implements OnInit {
   title: 'Train your dog like a champ';
   public refLink = refLinks.braindog;
-  constructor(private titleService: Title, private metaTagService: Meta) {
-    router.events.subscribe((y: NavigationEnd) => {
+  constructor(
+    private titleService: Title,
+    private metaTagService: Meta,
+    private router: Router
+  ) {
+    this.router.events.subscribe((y: NavigationEnd) => {
       if (y instanceof NavigationEnd) {
         gtag('config', 'UA-168145101-1', { page_path: y.url });
         fbq('track', 'PageView');
-        console.log('sending analytic');
+        fbq('track', 'DogView');
       }
     });
   }
