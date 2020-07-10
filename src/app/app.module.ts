@@ -12,9 +12,11 @@ import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
 import { BrainDogComponent } from './pages/braindog/braindog.component';
 import { ManifestationComponent } from './pages/manifestation/manifestation.component';
+import { HeaderComponent } from './pages/shared/header/header.component';
 
 @NgModule({
   declarations: [
+    HeaderComponent,
     AppComponent,
     HomeComponent,
     TattooRemovalComponent,
