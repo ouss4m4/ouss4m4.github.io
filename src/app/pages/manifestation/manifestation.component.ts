@@ -35,7 +35,7 @@ export class ManifestationComponent implements OnInit {
     });
     this.metaTagService.updateTag({
       name: 'keywords',
-      content: `5 minute manifestation, minute manifestation, 5 minute manifestation review`,
+      content: `5 minute manifestation,manifestation review,manifestation program, minute manifestation`,
     });
   }
 }
