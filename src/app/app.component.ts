@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Meta } from '@angular/platform-browser';
 
-declare let gtag: Function;
-declare let fbq: Function;
+export declare let gtag: (...args) => void;
+export declare let fbq: (...args) => void;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

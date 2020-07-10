@@ -11,6 +11,7 @@ import { ProvenComponent } from './pages/proven/proven.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
 import { BrainDogComponent } from './pages/braindog/braindog.component';
+import { ManifestationComponent } from './pages/manifestation/manifestation.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { BrainDogComponent } from './pages/braindog/braindog.component';
     OkowatComponent,
     DofastComponent,
     BrainDogComponent,
+    ManifestationComponent,
   ],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
   providers: [],

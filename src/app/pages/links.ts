@@ -9,4 +9,5 @@ export const refLinks = {
   dofasting:
     'https://afflat3c1.com/lnk.asp?o=18448&c=918277&a=507570&k=1D6456CEEDAFE37B016DCABE90392DD2&l=19665',
   braindog: 'https://62a07pcdee1fzp4806qh62006z.hop.clickbank.net/',
+  manifestation: 'http://samaouss.5minman.hop.clickbank.net',
 };

@@ -6,6 +6,7 @@ import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
 import { BrainDogComponent } from './pages/braindog/braindog.component';
+import { ManifestationComponent } from './pages/manifestation/manifestation.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'brainy-dogs',
     component: BrainDogComponent,
+  },
+  {
+    path: 'manifestation',
+    component: ManifestationComponent,
   },
 
   {
