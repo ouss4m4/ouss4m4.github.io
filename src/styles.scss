@@ -8,13 +8,14 @@
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/card";
 @import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/alert";
 @import "reset";
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url(https://ezbatteryreconditioning.com/wp-content/uploads/2016/08/background.png);
-  background-repeat: repeat;
+  background-color: white;
   padding-bottom: 0px;
+  text-rendering: optimizeLegibility;
 }
 
 .title {

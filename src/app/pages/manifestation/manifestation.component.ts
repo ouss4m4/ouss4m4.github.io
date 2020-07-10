@@ -9,7 +9,7 @@ export declare let fbq: (...args) => void;
 @Component({
   selector: 'app-manifestation',
   templateUrl: './manifestation.component.html',
-  styleUrls: ['./manifestation.component.html'],
+  styleUrls: ['./manifestation.component.scss'],
 })
 export class ManifestationComponent implements OnInit {
   title = '5 minutes manifestation';

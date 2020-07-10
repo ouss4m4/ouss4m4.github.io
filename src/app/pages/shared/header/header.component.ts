@@ -7,5 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderComponent {
   @Input() title: string;
+  @Input() noLogo = false;
   constructor() {}
 }
