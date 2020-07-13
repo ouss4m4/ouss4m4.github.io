@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -8,7 +7,6 @@ import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.co
 import { CommonModule } from '@angular/common';
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
 import { ProvenComponent } from './pages/proven/proven.component';
-import { OkowatComponent } from './pages/okowat/okowat.component';
 import { DofastComponent } from './pages/dofast/dofast.component';
 import { BrainDogComponent } from './pages/braindog/braindog.component';
 import { ManifestationComponent } from './pages/manifestation/manifestation.component';
@@ -22,7 +20,6 @@ import { HeaderComponent } from './pages/shared/header/header.component';
     TattooRemovalComponent,
     EzbatteryComponent,
     ProvenComponent,
-    OkowatComponent,
     DofastComponent,
     BrainDogComponent,
     ManifestationComponent,

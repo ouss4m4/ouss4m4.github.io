@@ -3,15 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { TattooRemovalComponent } from './pages/tattoo-removal/tattoo-removal.component';
 import { EzbatteryComponent } from './pages/ezbattery/ezbattery.component';
-import { OkowatComponent } from './pages/okowat/okowat.component';
-import { DofastComponent } from './pages/dofast/dofast.component';
 import { BrainDogComponent } from './pages/braindog/braindog.component';
 import { ManifestationComponent } from './pages/manifestation/manifestation.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/manifestation',
     pathMatch: 'full',
   },
   {
@@ -26,10 +24,7 @@ const routes: Routes = [
     path: 'ezbattery',
     component: EzbatteryComponent,
   },
-  {
-    path: 'energy-saving',
-    component: OkowatComponent,
-  },
+
   {
     path: 'brainy-dogs',
     component: BrainDogComponent,
